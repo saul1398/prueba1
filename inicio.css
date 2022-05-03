@@ -150,7 +150,7 @@ footer{
     padding: 5px;
 }
 
-.formulario1{
+.formulario2{
     
     display: flex;
     flex-direction: column;
@@ -158,6 +158,9 @@ footer{
     padding: 15px;
   
 
+}
+.formulario1{
+    display: none;
 }
 .logoformu{
     transform: translate(10px, 20px);
@@ -244,6 +247,7 @@ ion-icon {
     justify-content: space-around;
     margin-bottom: 5px;
 }
+
 .flex22{
     display: flex;
     flex-wrap: wrap;
@@ -390,7 +394,7 @@ justify-content: center;
 
 /*---------------------------------------pantalla para computadora -----------------------------------------------------------*/
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     *{
         padding: 0;
         margin: 0;
@@ -430,6 +434,9 @@ justify-content: center;
        
     
         
+    }
+    .formulario1{
+        display: block;
     }
     .formulario2{
         display: none;
@@ -698,8 +705,13 @@ justify-content: center;
     .col p{
         color: aqua;
     }
-   
-     
+    .sectorbot{
+        background-image: url(imagenes/index/fondobot.gif);
+        background-size: cover ;
+        background-repeat: no-repeat;
+
+    }
+    
     
 
         
