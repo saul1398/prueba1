@@ -404,6 +404,7 @@ justify-content: center;
     .main_cascos{
         background-image: url(imagenes/Logo/fondocascoo.jpg);
     }
+  
    
 
     .empresalogo a img{
@@ -711,8 +712,13 @@ justify-content: center;
         background-repeat: no-repeat;
 
     }
-    
-    
+    .ediimagen{
+        background-color: aliceblue;
+    }
+    .agregar{
+       width: 100px;
+        border-radius: 2em;
+    }
 
         
 
